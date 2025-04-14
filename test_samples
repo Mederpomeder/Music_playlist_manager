@@ -1,0 +1,131 @@
+Test Case 1: Create a Playlist
+Input:
+1
+Type the name of the playlist: Rock Classics
+Would you like to add songs? (1 for yes, any other number for no): 1
+Name of the song: Bohemian Rhapsody
+Add more songs? (1 for yes, any other number to stop): 1
+Name of the song: Stairway to Heaven
+Add more songs? (1 for yes, any other number to stop): 2
+Expected Output:
+Playlist created successfully!
+
+---
+
+Test Case 2: Retrieve Playlists
+Input:
+2
+Expected Output:
+Playlist name: Rock Classics
+Songs:
+Bohemian Rhapsody
+Stairway to Heaven
+
+---
+
+Test Case 3: Update Playlist Name
+Input:
+3
+Type the name of the playlist you want to update: Rock Classics
+Type the new name of the playlist: Classic Rock
+Expected Output:
+Renamed successfully!
+From - Rock Classics to - Classic Rock
+
+---
+
+Test Case 4: Delete a Playlist
+Input:
+4
+Type the name of the playlist you want to delete: Classic Rock
+Expected Output:
+Playlist deleted successfully!
+
+---
+
+Test Case 5: Sort Playlists Alphabetically
+Input:
+5
+Sort playlists by:
+1) Alphabetical order
+2) Number of songs
+1
+Expected Output:
+Playlists sorted alphabetically:
+Playlist name: Jazz Vibes
+Playlist name: Pop Hits
+
+---
+
+Test Case 6: Shuffle Playlists
+Input:
+6
+Expected Output:
+Playlists retrieved in random order:
+Playlist name: [Random Order]
+Songs:
+[Random Order]
+
+---
+
+Test Case 7: Mark a Favorite Song
+Input:
+7
+Type the name of the playlist to mark a favorite song: Jazz Vibes
+Current songs in the playlist:
+Take Five
+So What
+Type the name of the song to mark as favorite: So What
+Expected Output:
+Song marked as favorite successfully!
+
+---
+
+Test Case 8: Search for a Playlist
+Input:
+8
+Enter the name of the playlist to search: Jazz Vibes
+Expected Output:
+Playlist found!
+Playlist name: Jazz Vibes
+Songs:
+So What
+Take Five
+
+---
+
+Test Case 9: Merge Two Playlists
+Input:
+9
+Enter the name of the first playlist to merge: Jazz Vibes
+Enter the name of the second playlist to merge: Pop Hits
+Enter the name of the new merged playlist: Mixed Vibes
+Expected Output:
+Playlists merged successfully into: Mixed Vibes
+
+---
+
+Test Case 10: Remove Duplicate Songs
+Input:
+10
+Enter the name of the playlist to remove duplicate songs: Mixed Vibes
+Expected Output:
+Original playlist songs:
+So What
+Take Five
+Blinding Lights
+So What
+Updated playlist after removing duplicates:
+So What
+Take Five
+Blinding Lights
+Duplicates removed successfully!
+
+---
+
+Test Case 11: Report of the Most Popular Song
+Input:
+11
+Expected Output:
+Report of the Most Popular Song:
+The most popular song is: So What (appears 2 times)
