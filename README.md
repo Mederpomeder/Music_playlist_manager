@@ -52,3 +52,5 @@ Challenges Faced
 Handling edge cases such as invalid inputs, empty playlists, and duplicate playlist names.
 Ensuring data consistency when modifying playlists.
 Maintaining a clean and modular code structure while implementing multiple features.
+
+presentation: https://docs.google.com/presentation/d/1PnJaXhOzP6cWIb7hauCqbF7XqUiW__F3/edit?usp=sharing&ouid=109928450729421069302&rtpof=true&sd=true
